@@ -1,0 +1,236 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>GP Speaker Metadata (Pre-Defined)</h:title>
+    <model>
+      <instance>
+        <data id="build_GP-Speaker-Metadata-Pre-Defined-_1589104588">
+          <meta>
+            <instanceID/>
+          </meta>
+          <basic_group>
+            <name_first/>
+            <name_father/>
+            <names_other/>
+            <gender/>
+            <birth_year/>
+            <education/>
+          </basic_group>
+          <language_group>
+            <first_language/>
+            <languages/>
+          </language_group>
+          <mother_languages/>
+          <father_languages/>
+          <location_group>
+            <location_born/>
+            <location_currently_living/>
+            <length_of_residence/>
+            <other_locations/>
+          </location_group>
+          <picture_group>
+            <picture_face/>
+          </picture_group>
+          <username/>
+          <today/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/basic_group:label">
+            <value>Basic Information</value>
+          </text>
+          <text id="/data/basic_group/name_first:label">
+            <value>First Name</value>
+          </text>
+          <text id="/data/basic_group/name_father:label">
+            <value>Father's Name</value>
+          </text>
+          <text id="/data/basic_group/names_other:label">
+            <value>Other Names</value>
+          </text>
+          <text id="/data/basic_group/gender:label">
+            <value>Gender</value>
+          </text>
+          <text id="/data/basic_group/birth_year:label">
+            <value>Year of Birth</value>
+          </text>
+          <text id="/data/basic_group/education:label">
+            <value>Speaker education</value>
+          </text>
+          <text id="/data/language_group:label">
+            <value>Language Information</value>
+          </text>
+          <text id="/data/language_group/first_language:label">
+            <value>First Language</value>
+          </text>
+          <text id="/data/language_group/languages:label">
+            <value>Proficient Languages</value>
+          </text>
+          <text id="/data/mother_languages:label">
+            <value>What languages did/does your mother speak? </value>
+          </text>
+          <text id="/data/father_languages:label">
+            <value>What languages did/does your father speak? </value>
+          </text>
+          <text id="/data/location_group:label">
+            <value>Location Information</value>
+          </text>
+          <text id="/data/location_group/location_born:label">
+            <value>Where was the speaker born?</value>
+          </text>
+          <text id="/data/location_group/location_currently_living:label">
+            <value>Where is the speaker living now?</value>
+          </text>
+          <text id="/data/location_group/length_of_residence:label">
+            <value>How long has the speaker been living in the current location?</value>
+          </text>
+          <text id="/data/location_group/other_locations:label">
+            <value>Where else has the speaker lived?</value>
+          </text>
+          <text id="/data/picture_group:label">
+            <value>Pictures of Speaker</value>
+          </text>
+          <text id="/data/picture_group/picture_face:label">
+            <value>Picture of Speaker's Face</value>
+          </text>
+        </translation>
+        <translation lang="Swahili">
+          <text id="/data/basic_group:label">
+            <value>Habari za Msingi</value>
+          </text>
+          <text id="/data/basic_group/name_first:label">
+            <value>Jina la Kwanza</value>
+          </text>
+          <text id="/data/basic_group/name_father:label">
+            <value>Jina la baba</value>
+          </text>
+          <text id="/data/basic_group/names_other:label">
+            <value>Majina Mengine</value>
+          </text>
+          <text id="/data/basic_group/gender:label">
+            <value>Jinsia</value>
+          </text>
+          <text id="/data/basic_group/birth_year:label">
+            <value>Mwaka alipozaliwa</value>
+          </text>
+          <text id="/data/basic_group/education:label">
+            <value>Elimu</value>
+          </text>
+          <text id="/data/language_group:label">
+            <value>Habari za Lugha za Msemaji</value>
+          </text>
+          <text id="/data/language_group/first_language:label">
+            <value>Lugha ya Kwanza</value>
+          </text>
+          <text id="/data/language_group/languages:label">
+            <value>Lugha anazoweza kuongea</value>
+          </text>
+          <text id="/data/mother_languages:label">
+            <value>Lugha za mamake</value>
+          </text>
+          <text id="/data/father_languages:label">
+            <value>Lugha za babake</value>
+          </text>
+          <text id="/data/location_group:label">
+            <value>Habari za Mahali</value>
+          </text>
+          <text id="/data/location_group/location_born:label">
+            <value>Msemaji alizaliwa wapi?</value>
+          </text>
+          <text id="/data/location_group/location_currently_living:label">
+            <value>Msemaji anaishi wapi sasa?</value>
+          </text>
+          <text id="/data/location_group/length_of_residence:label">
+            <value>Msemaji ameishi huku kwa muda gani?</value>
+          </text>
+          <text id="/data/location_group/other_locations:label">
+            <value>Msemaji amewahi kuishi wapi?</value>
+          </text>
+          <text id="/data/picture_group:label">
+            <value>Picha za Msemaji</value>
+          </text>
+          <text id="/data/picture_group/picture_face:label">
+            <value>Picha ya Uso la Msemaji</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/basic_group/name_first" type="string" required="true()"/>
+      <bind nodeset="/data/basic_group/name_father" type="string" required="true()"/>
+      <bind nodeset="/data/basic_group/names_other" type="string"/>
+      <bind nodeset="/data/basic_group/gender" type="string"/>
+      <bind nodeset="/data/basic_group/birth_year" type="date"/>
+      <bind nodeset="/data/basic_group/education" type="string"/>
+      <bind nodeset="/data/language_group/first_language" type="string"/>
+      <bind nodeset="/data/language_group/languages" type="string"/>
+      <bind nodeset="/data/mother_languages" type="string"/>
+      <bind nodeset="/data/father_languages" type="string"/>
+      <bind nodeset="/data/location_group/location_born" type="string" required="true()"/>
+      <bind nodeset="/data/location_group/location_currently_living" type="string" required="true()"/>
+      <bind nodeset="/data/location_group/length_of_residence" type="string"/>
+      <bind nodeset="/data/location_group/other_locations" type="string" required="true()"/>
+      <bind nodeset="/data/picture_group/picture_face" type="binary" required="true()"/>
+      <bind nodeset="/data/username" type="string" jr:preload="property" jr:preloadParams="username"/>
+      <bind nodeset="/data/today" type="date" jr:preload="date" jr:preloadParams="today"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/basic_group" appearance="field-list">
+      <label ref="jr:itext('/data/basic_group:label')"/>
+      <input ref="/data/basic_group/name_first">
+        <label ref="jr:itext('/data/basic_group/name_first:label')"/>
+      </input>
+      <input ref="/data/basic_group/name_father">
+        <label ref="jr:itext('/data/basic_group/name_father:label')"/>
+      </input>
+      <input ref="/data/basic_group/names_other">
+        <label ref="jr:itext('/data/basic_group/names_other:label')"/>
+      </input>
+      <input ref="/data/basic_group/gender">
+        <label ref="jr:itext('/data/basic_group/gender:label')"/>
+      </input>
+      <input ref="/data/basic_group/birth_year" appearance="year">
+        <label ref="jr:itext('/data/basic_group/birth_year:label')"/>
+      </input>
+      <input ref="/data/basic_group/education">
+        <label ref="jr:itext('/data/basic_group/education:label')"/>
+      </input>
+    </group>
+    <group ref="/data/language_group" appearance="field-list">
+      <label ref="jr:itext('/data/language_group:label')"/>
+      <input ref="/data/language_group/first_language">
+        <label ref="jr:itext('/data/language_group/first_language:label')"/>
+      </input>
+      <input ref="/data/language_group/languages">
+        <label ref="jr:itext('/data/language_group/languages:label')"/>
+      </input>
+    </group>
+    <input ref="/data/mother_languages">
+      <label ref="jr:itext('/data/mother_languages:label')"/>
+    </input>
+    <input ref="/data/father_languages">
+      <label ref="jr:itext('/data/father_languages:label')"/>
+    </input>
+    <group ref="/data/location_group" appearance="field-list">
+      <label ref="jr:itext('/data/location_group:label')"/>
+      <input ref="/data/location_group/location_born">
+        <label ref="jr:itext('/data/location_group/location_born:label')"/>
+      </input>
+      <input ref="/data/location_group/location_currently_living">
+        <label ref="jr:itext('/data/location_group/location_currently_living:label')"/>
+      </input>
+      <input ref="/data/location_group/length_of_residence">
+        <label ref="jr:itext('/data/location_group/length_of_residence:label')"/>
+      </input>
+      <input ref="/data/location_group/other_locations">
+        <label ref="jr:itext('/data/location_group/other_locations:label')"/>
+      </input>
+    </group>
+    <group ref="/data/picture_group" appearance="field-list">
+      <label ref="jr:itext('/data/picture_group:label')"/>
+      <upload ref="/data/picture_group/picture_face" mediatype="image/*">
+        <label ref="jr:itext('/data/picture_group/picture_face:label')"/>
+      </upload>
+    </group>
+  </h:body>
+</h:html>
