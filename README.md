@@ -7,7 +7,7 @@ This repository hosts documentation and resources for the ODK linguistic metadat
 ### ODK Aggregate
 The first step is to prepare your server. If you don't have your own physical server, you can set up a virtual server using [Google Cloud Platform](https://cloud.google.com) or [Amazon Web Services](https://aws.amazon.com/). There is [documentation of the steps to set up a server](https://docs.getodk.org/aggregate-setup/) on the ODK website.  
 
-![](https://www.dropbox.com/s/xt5tq61ku66ewxb/ODK%20aggregate.png?dl=1 "ODK Aggregate")
+![](https://www.dropbox.com/s/xt5tq61ku66ewxb/ODK%20aggregate.png?raw=1 "ODK Aggregate")
 
 ### ODK Build
 Create an account with [ODK Build](https://build.getodk.org/) and upload one of the following sets of forms:
@@ -20,14 +20,14 @@ Once you have prepared your forms you can upload them to your Aggregate server d
 
 [Further documentation of ODK Build](https://docs.getodk.org/build-intro/) can be found on the ODK website.
 
-![](https://www.dropbox.com/s/i7lxqax26ji91tj/ODK%20build%20gp.png?dl=1 "ODK Build")
+![](https://www.dropbox.com/s/i7lxqax26ji91tj/ODK%20build%20gp.png?raw=1 "ODK Build")
 
 ### ODK Collect
 The final step is to prepare ODK Collect on an Android device. The app can be found in the Google Play Store. After the app has been installed, you  must enter the information for your Aggregate server in the settings. You are then able to download forms from the Aggregate server, fill them out, and upload them back to the server.
 
 [Further documentation of ODK Collect](https://docs.getodk.org/collect-intro/) can be found on the ODK website.
 
-![](https://www.dropbox.com/s/hhcsh6f9vrfi345/Group%20of%20questions.png?dl=1 "ODK Collect")
+![](https://www.dropbox.com/s/hhcsh6f9vrfi345/Group%20of%20questions.png?raw=1 "ODK Collect")
 
 
 
