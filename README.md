@@ -1,6 +1,8 @@
 # Open Data Kit Linguistic Metadata Method
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-This repository hosts documentation and resources for the ODK linguistic metadata method. The resources include two sets of forms for use by linguists who want to use ODK to collect metadata in remote areas. 
+This repository hosts documentation and resources for the ODK linguistic metadata method. 
+
+The resources include two sets of forms for use by linguists who want to use ODK to collect metadata in remote areas. 
 
 ## Method Description
 ### ODK Aggregate
@@ -8,7 +10,7 @@ The first step is to prepare your server. If you don't have your own physical se
 
 ### ODK Build
 Create an account with [ODK Build](https://build.getodk.org/) and upload one of the following sets of forms:
-1. **Multiple Choice Forms**: These forms have multiple choice widgets for a number of questions that need to be filled out before you can use the form to collect data. For example, the question asking for the name of the researcher has five options (i.e. "Research #1", "Research #2", etc.), and you need to manually change the labels for these answers and add or remove answers as needed. These forms are best for larger projects involving multiple researchers or large amounts of data.
+1. **Multiple Choice Forms**: These forms have multiple choice widgets for a number of questions that need to be filled out before you can use the form to collect data. For example, the question asking for the name of the researcher has five options (i.e. "Researcher #1", "Researcher #2", etc.), and you need to manually change the labels for these answers and add or remove answers as needed. These forms are best for larger projects involving multiple researchers or large amounts of data.
 2. **Open Text Forms**: These forms can be used more or less out of the box, but they often require text entry for many fields. For example, the name of the researcher who is collecting data must be entered manually. These forms are best for smaller projects with fewer researchers or less data. 
 
 Both types of form are based on the metadata profile for the Endangered Languages Archive (ELAR). If you would like a form for a different metadata profile, feel free to send an email to rgriscom@gmail.com
