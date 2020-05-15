@@ -1,8 +1,7 @@
 # Open Data Kit Linguistic Metadata Method
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-This repository hosts documentation and resources for the ODK linguistic metadata method. 
 
-The resources include two sets of forms for use by linguists who want to use ODK to collect metadata in remote areas. 
+This repository hosts documentation and resources for the ODK linguistic metadata method. This method is used to create digital metadata for language resources, either for the purpose of archiving or conducting research. With this method, metadata can be collected anywhere in the world, including regions without electricity or mobile data. Metadata can also be collected by teams of researchers working independently, with the results compiled together. The  method is based on the open source platform [Open Data Kit](https://getodk.org/). 
 
 ## Method Description
 ### ODK Aggregate
