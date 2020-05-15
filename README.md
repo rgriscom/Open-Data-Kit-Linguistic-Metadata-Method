@@ -14,7 +14,7 @@ Create an account with [ODK Build](https://build.getodk.org/) and upload one of 
 1. **Multiple Choice Forms**: These forms have multiple choice widgets for a number of questions that need to be filled out before you can use the form to collect data. For example, the question asking for the name of the researcher has five options (i.e. "Researcher #1", "Researcher #2", etc.), and you need to manually change the labels for these answers and add or remove answers as needed. These forms are best for larger projects involving multiple researchers or large amounts of data.
 2. **Open Text Forms**: These forms can be used more or less out of the box, but they often require text entry for many fields. For example, the name of the researcher who is collecting data must be entered manually. These forms are best for smaller projects with fewer researchers or less data. 
 
-Both types of form are based on the metadata profile for the Endangered Languages Archive (ELAR). If you would like a form for a different metadata profile, feel free to send an email to rgriscom@gmail.com
+Both types of form are based on the metadata profile for the Endangered Languages Archive (ELAR). All text is currently available in English and Swahili. If you would like a form for a different metadata profile, feel free to send an email to rgriscom@gmail.com
 
 Once you have prepared your forms you can upload them to your Aggregate server directly from ODK Build. If you visit the server, then you can confirm that the forms have been successfully uploaded.
 
@@ -23,7 +23,7 @@ Once you have prepared your forms you can upload them to your Aggregate server d
 ![](https://www.dropbox.com/s/i7lxqax26ji91tj/ODK%20build%20gp.png?raw=1 "ODK Build")
 
 ### ODK Collect
-The final step is to prepare ODK Collect on an Android device. The app can be found in the Google Play Store. After the app has been installed, you  must enter the information for your Aggregate server in the settings. You are then able to download forms from the Aggregate server, fill them out, and upload them back to the server.
+The final step is to prepare ODK Collect on an Android device. The app can be found in the Google Play Store. After the app has been installed, you  must enter the information for your Aggregate server in the settings. You are then able to download forms from the Aggregate server, fill them out, and upload them back to the server. The language of the app interface can be changed to a wide variety of languages, and the language of the individual forms can be toggled between English and Swahili.
 
 [Further documentation of ODK Collect](https://docs.getodk.org/collect-intro/) can be found on the ODK website.
 
