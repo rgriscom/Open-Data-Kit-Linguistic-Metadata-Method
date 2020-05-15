@@ -27,7 +27,7 @@ The final step is to prepare ODK Collect on an Android device. The app can be fo
 
 [Further documentation of ODK Collect](https://docs.getodk.org/collect-intro/) can be found on the ODK website.
 
-![](https://www.dropbox.com/s/hhcsh6f9vrfi345/Group%20of%20questions.png?raw=1 "ODK Collect")
+![](https://www.dropbox.com/s/3dgqrpa796hmbzb/Group%20of%20questions%20%28small%29.png?raw=1 "ODK Collect")
 
 
 
